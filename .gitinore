@@ -1,0 +1,42 @@
+# Ignore environment variables file (often contains sensitive data)
+.env
+
+# Ignore dependency directories
+node_modules/
+
+# Ignore build/output directories
+dist/
+build/
+out/
+
+# Ignore log files
+*.log
+logs/
+
+# Ignore IDE and editor-specific files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore npm/yarn cache and lock files (if not needed)
+.npm
+.yarn
+yarn.lock
+package-lock.json
+
+# Ignore debugging files
+*.pid
+*.seed
+
+# Ignore coverage reports
+coverage/
+.nyc_output/
+
+# Ignore temporary files
+tmp/
+temp/
